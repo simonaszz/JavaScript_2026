@@ -1,36 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-   
+  <head>
     <title>Kontaktai</title>
-</head>
-<body>
+  </head>
+  <body>
     <style>
-        form {
-    display: grid;
-    grid-template-columns: 100px 200px;
-    gap: 10px;
-    align-items: center;
-  }
-  .full-width {
-    grid-column: 1 / -1;
-  }
+      form {
+        display: grid;
+        grid-template-columns: 100px 200px;
+        gap: 10px;
+        align-items: center;
+      }
+      .full-width {
+        grid-column: 1 / -1;
+      }
     </style>
     <form action="#" method="post">
-        <label for="name">Jūsų vardas:</label>
-        <input type="text" id="name" name="name" placeholder="Jūsų vardas" required />
-        
+      <label for="name">Jūsų vardas:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Jūsų vardas"
+        required
+      />
 
-        <label for="email">Jūsų el. paštas:</label>
-        <input type="email" id="email" name="email" placeholder="Jūsų el. paštas" required />
-    
 
-        <label for="message">Jūsų žinutė:</label>
-        <textarea id="message" name="message" placeholder="Jūsų žinutė" required></textarea>
-        <br>
 
-        <input type="submit" value="Siųsti" />
 
+
+
+      
+
+      <label for="email">Jūsų el. paštas:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Jūsų el. paštas"
+        required
+      />
+
+      <label for="message">Jūsų žinutė:</label>
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Jūsų žinutė"
+        required
+      ></textarea>
+           <br>
+
+      <input type="submit" value="Siųsti" />
     </form>
-</body>
+  </body>
 </html>
