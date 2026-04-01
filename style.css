@@ -34,5 +34,18 @@ div:nth-of-type(2) > div:nth-of-type(odd) {
 }
 div:nth-of-type(2),
 div:nth-of-type(2) > div:nth-of-type(odd) {
-  margin: 20px;
+  /* margin: 20px; */
+}
+
+.gallery {
+  display: flex;
+}
+
+.img {
+  height: 150px;
+  width: 200px;
+  background-color: aqua;
+}
+.img:hover {
+  zoom: 150%;
 }
